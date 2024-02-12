@@ -1,0 +1,15 @@
+.box {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 10rem;
+    width: 10rem;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+
+.box svg {
+    font-size: large;
+  }

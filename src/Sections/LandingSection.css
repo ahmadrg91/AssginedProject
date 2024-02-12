@@ -1,0 +1,13 @@
+#landing-section p {
+  margin-top: 1rem;
+}
+
+#landing-section > div {
+  width: 50%;
+}
+
+#landing-section > div:last-child > div {
+  height: 25rem;
+  width: 40rem;
+  border: 1px solid white;
+}

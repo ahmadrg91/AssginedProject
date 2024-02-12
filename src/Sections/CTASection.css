@@ -1,0 +1,37 @@
+#cta-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cta-section > div {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 100%;
+}
+
+#cta-section h2 {
+  margin-bottom: 3rem;
+}
+
+#cta-section > div div {
+  padding: 2rem;
+}
+
+#cta-section > div > div:last-child {
+  border-left: 1px solid white;
+  width: 30%;
+}
+
+#cta-section span {
+  color: #fada5e;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+
+#cta-section > div > div:last-child {
+  padding-inline: 3rem;
+}

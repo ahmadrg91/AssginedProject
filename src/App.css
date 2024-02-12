@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'General Sans';
+  src: url("/src/Fonts/GeneralSans-Regular.eot"); /* IE9 Compat Modes */
+    src: url('/src/Fonts/GeneralSans-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('/src/Fonts/GeneralSans-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+        url('/src/Fonts/GeneralSans-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'General Sans';
+  src: url("/src/Fonts/GeneralSans-Semibold.eot"); /* IE9 Compat Modes */
+    src: url('/src/Fonts/GeneralSans-Semibold.woff2') format('woff2'), /* Super Modern Browsers */
+        url('/src/Fonts/GeneralSans-Semibold.woff') format('woff'), /* Pretty Modern Browsers */
+        url('/src/Fonts/GeneralSans-Semibold.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'General Sans';
+  src: url("/src/Fonts/GeneralSans-Bold.eot"); /* IE9 Compat Modes */
+    src: url('/src/Fonts/GeneralSans-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+        url('/src/Fonts/GeneralSans-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+        url('/src/Fonts/GeneralSans-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'General Sans';
+  src: url("/src/Fonts/GeneralSans-SemiboldItalic.eot"); /* IE9 Compat Modes */
+    src: url('/src/Fonts/GeneralSans-SemiboldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+        url('/src/Fonts/GeneralSans-SemiboldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+        url('/src/Fonts/GeneralSans-SemiboldItalic.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+  font-family: 'General Sans';
+  src: url("/src/Fonts/GeneralSans-Light.eot"); /* IE9 Compat Modes */
+    src: url('/src/Fonts/GeneralSans-Light.woff2') format('woff2'), /* Super Modern Browsers */
+        url('/src/Fonts/GeneralSans-Light.woff') format('woff'), /* Pretty Modern Browsers */
+        url('/src/Fonts/GeneralSans-Light.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding-inline: 15vw;
+  color: white;
+  font-family: 'General Sans';
+  font-size: 1.6rem;
+  background-color: hsl(220, 50%, 20%);
+}
+
+header {
+  height: 7rem;
+}
+
+section {
+  height: 90vh;
+}
+
+section:not(main > section:first-child) {
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0;
+}

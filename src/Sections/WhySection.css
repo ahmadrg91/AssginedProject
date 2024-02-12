@@ -1,0 +1,28 @@
+#why-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8rem;
+}
+
+#why-section h1 {
+  text-align: center;
+}
+
+#why-section div:last-child {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 8rem;
+  column-gap: 4rem;
+}
+
+#why-section article {
+  width: 28rem;
+  text-align: center;
+  font-weight: lighter;
+}
+
+#why-section article svg {
+  font-size: 5rem;
+  color: white;
+}

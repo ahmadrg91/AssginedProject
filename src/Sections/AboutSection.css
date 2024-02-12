@@ -1,0 +1,49 @@
+#about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5rem;
+}
+
+#about-section > div {
+  width: 80%;
+}
+
+#about-section > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#about-section > div:last-child > div {
+  width: 48%;
+  height: 35rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #c9c5b5;
+  color: black;
+  padding-block: 1rem;
+}
+
+#about-section > div:last-child > div:first-child {
+  background-image: linear-gradient(rgba(21, 40, 80, 255), black);
+}
+
+#about-section ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+}
+
+#about-section li {
+  list-style: none;
+}
+
+#about-section li::before {
+  content: "\203A";
+  color: rgb(21, 40, 80);
+  font-weight: bolder;
+  margin-right: 0.5rem;
+  font-size: large;
+}
