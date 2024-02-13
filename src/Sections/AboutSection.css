@@ -11,6 +11,8 @@
 
 #about-section > div:last-child {
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 5rem;
   justify-content: space-between;
   width: 100%;
 }
@@ -23,6 +25,7 @@
   background-color: #c9c5b5;
   color: black;
   padding-block: 1rem;
+  min-width: 330px;
 }
 
 #about-section > div:last-child > div:first-child {

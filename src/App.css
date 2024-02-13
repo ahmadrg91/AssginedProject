@@ -71,13 +71,21 @@ header {
 
 section {
   height: 90vh;
+  min-height: fit-content;
 }
 
 section:not(main > section:first-child) {
   height: 100vh;
+  min-height: fit-content;
 }
 
 h1 {
   font-size: 3.5rem;
   margin-bottom: 0;
+}
+
+@media only screen  and (max-width: 1024px){
+  body {
+    padding-inline: 5vw;
+  }
 }

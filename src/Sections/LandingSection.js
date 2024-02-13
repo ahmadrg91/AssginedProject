@@ -37,6 +37,7 @@ function LandingSection(){
             </div>
             <div style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
                 <div>
+                    Image will go here
                 </div>
             </div>
         </section>

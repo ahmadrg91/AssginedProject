@@ -11,3 +11,17 @@
   width: 40rem;
   border: 1px solid white;
 }
+
+@media only screen  and (max-width: 769px){
+  #landing-section > div {
+    width: 100%;
+  }
+
+  #landing-section {
+    justify-content: center;
+  }
+  
+  #landing-section > div:last-child > div {
+    display: none;
+  }
+}

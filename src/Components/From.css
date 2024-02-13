@@ -1,0 +1,41 @@
+.form-container {
+  position: fixed;
+  bottom: -200rem;
+  transition: bottom 1s ease;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem;
+  padding-top: 0;
+  color: black;
+  left: 3px;
+}
+
+.form-container.show {
+    bottom: 3px;
+}
+
+form {
+    display: grid;
+    flex-direction: 1fr;
+}
+
+.form-container p {
+    margin: 1rem;
+}
+
+input {
+  margin: 5px;
+  width: 30rem;
+  height: 5rem;
+  background-color: whitesmoke;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+input[type="submit"]{
+    padding: 0;
+    height: 3rem;
+    background-color: #fada5e;
+    font-size: medium;
+}

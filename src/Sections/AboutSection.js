@@ -8,7 +8,9 @@ function AboutSection(){
                 <p>The world needs your creativity and ingenuity. Don't put your dreams on hold. Start your founder's journey today!</p>
             </div>
             <div>
-                <div></div>
+                <div style={{color: 'white'}}>
+                Image will go here
+                </div>
                 <div>
                     <ul>
                         <li>Neque porro <strong>quisquam est qui</strong> dolorem ipsum quia dolor sit amet</li>

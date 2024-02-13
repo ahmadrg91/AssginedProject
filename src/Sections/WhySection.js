@@ -34,7 +34,7 @@ function WhySection() {
   return (
     <section id="why-section">
       <h1>
-        <span style={{ color: "orange" }}>But,</span>
+        <span style={{ color: "chocolate" }}>But,</span>
         <br />
         Why should you become a Mindful Marketer
       </h1>
